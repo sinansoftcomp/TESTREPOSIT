@@ -28,7 +28,7 @@ $(function () {
 
 
 				/*		
-111111111111111111
+
 				{ "id" : "12_name", "parent" : "#", "text" : "12_display" },
 				{ "id" : "ajson2", "parent" : "#", "text" : "222222" },
 					
@@ -48,7 +48,7 @@ $(function () {
 				{ "id" : "ajson11", "parent" : "ajson5", "text" : "Child 4" },
 
 				{ "id" : "ajson12", "parent" : "ajson11", "text" : "Child 5" },
-				{ "id" : "ajson13", "parent" : "ajson12", "text" : "±è¼ø°ü" },
+				{ "id" : "ajson13", "parent" : "ajson12", "text" : "Â±Ã¨Â¼Ã¸Â°Ã¼" },
 					*/ 
 			
 
@@ -68,7 +68,7 @@ $(function () {
 		//alert(node_id);
     });
 	
-	// Node ¼±ÅÃÇßÀ» ¶¯
+	// Node Â¼Â±Ã…ÃƒÃ‡ÃŸ??Â» Â¶Â¯
 	$('#jstree').on("select_node.jstree", function (e, data) {
 			var id = data.instance.get_node(data.selected).id;
 			/*
